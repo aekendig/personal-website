@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# added with check_gitignore()
+.DS_Store
+Thumbs.db
+.hugo_build.lock
+/public/
+/resources/
