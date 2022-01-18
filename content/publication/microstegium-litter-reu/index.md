@@ -12,13 +12,14 @@ authors:
 - Erica M. Goss
 - S. Luke Flory
 date: "2022-01-16T00:00:00Z"
-doi: "10.1002/ecs2.3907"
+doi: "10.1101/2021.04.07.437244"
 featured: false
 image:
   caption:
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- invasion-disease
 publication: '*Ecosphere, in press*'
 publication_short: ""
 publication_types:
@@ -27,10 +28,11 @@ publishDate: ""
 slides:
 summary:
 tags:
+- invasion-disease
 title: Invasive grass litter suppresses a native grass species and promotes disease
 url_code: https://doi.org/10.6073/pasta/3688be04a98697c95efa5747eb3c9513
 url_dataset: ""
-url_pdf: https://doi.org/10.1101/2021.04.07.437244
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""

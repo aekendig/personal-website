@@ -17,7 +17,8 @@ image:
   caption:
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- invasion-disease
 publication: '*Annual Review of Phytopathology, 58*'
 publication_short: ""
 publication_types:
@@ -26,10 +27,11 @@ publishDate: "2020-06-09T00:00:00Z"
 slides:
 summary:
 tags:
+- invasion-disease
 title: Disease in invasive plant populations
 url_code: ""
 url_dataset: ""
-url_pdf: https://www.annualreviews.org/doi/10.1146/annurev-phyto-010820-012757
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""

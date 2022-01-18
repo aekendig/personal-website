@@ -16,7 +16,8 @@ image:
   caption:
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- invasion-disease
 publication: '*PLoS ONE, 16*(e0237894)'
 publication_short: ""
 publication_types:
@@ -25,10 +26,11 @@ publishDate: "2021-03-01T00:00:00Z"
 slides:
 summary:
 tags:
+- invasion-disease
 title: Emerging fungal pathogen of an invasive grass - Implications for competition with native plant species
 url_code: https://doi.org/10.6073/pasta/c85303b29d66e7deb3387215a07015be
 url_dataset: ""
-url_pdf: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0237894&type=printable
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""

@@ -13,7 +13,8 @@ image:
   caption:
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- fertilizers-microbes
 publication: '*Discrete and Continuous Dynamical Systems-B, 26*(515539)'
 publication_short: ""
 publication_types:
@@ -22,10 +23,11 @@ publishDate: "2021-01-01T00:00:00Z"
 slides:
 summary:
 tags:
+- fertilizers-microbes
 title: Rich dynamics of a simple delay host-pathogen model of cell-to-cell infection for plant virus
 url_code: ""
 url_dataset: ""
-url_pdf: https://www.aimsciences.org/article/exportPdf?id=68c93909-381d-4c17-bd2b-7c9503b94909
+url_pdf: http://math.la.asu.edu/~kuang/paper/PlantDDE20.pdf
 url_poster: ""
 url_project: ""
 url_slides: ""

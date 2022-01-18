@@ -18,7 +18,8 @@ image:
   caption:
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- fertilizers-microbes
 publication: '*Ecology, e03155*'
 publication_short: ""
 publication_types:
@@ -27,10 +28,11 @@ publishDate: "2020-08-03T00:00:00Z"
 slides:
 summary:
 tags:
+- fertilizers-microbes
 title: Host nutrition mediates interactions between plant viruses, altering transmission and predicted disease spread
 url_code: https://doi.org/10.6073/pasta/00a35cbd4a9b2a007433c3d2be0d1742
 url_dataset: ""
-url_pdf: https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3155
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""

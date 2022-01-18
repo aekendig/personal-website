@@ -29,8 +29,8 @@ summary:
 tags:
 title: Water availability modifies productivity response to biodiversity and nitrogen in long-term grassland experiments
 url_code: ""
-url_dataset: ""
-url_pdf: https://esajournals.onlinelibrary.wiley.com/doi/10.1002/eap.2363
+url_dataset: https://www.cedarcreek.umn.edu/research/data
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""

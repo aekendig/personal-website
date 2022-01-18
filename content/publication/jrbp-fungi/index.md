@@ -6,26 +6,28 @@ authors:
 - S. Caroline Daws
 - S. Luke Flory
 - Erin A. Mordecai
-date: "2020-08-20T00:00:00Z"
+date: "2021-02-01T00:00:00Z"
 doi: "10.1111/1365-2745.13515"
 featured: false
 image:
   caption:
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- invasion-disease
 publication: '*Journal of Applied Ecology, 109*(2)'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2020-08-20T00:00:00Z"
+publishDate: "2021-02-01T00:00:00Z"
 slides:
 summary:
 tags:
+- invasion-disease
 title: Native perennial and non-native annual grasses shape pathogen community composition and disease severity in a California grassland
 url_code: http://doi.org/10.5281/zenodo.4062434
 url_dataset: ""
-url_pdf: https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2745.13515
+url_pdf: "https://onlinelibrary.wiley.com/share/author/BSV23CMQG8JWGQY5EHBR?target=10.1111/1365-2745.13515"
 url_poster: ""
 url_project: ""
 url_slides: ""

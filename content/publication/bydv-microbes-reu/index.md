@@ -15,7 +15,8 @@ image:
   caption:
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- fertilizers-microbes
 publication: '*Ecology and Evolution, e8450*'
 publication_short: ""
 publication_types:
@@ -24,10 +25,11 @@ publishDate: "2022-01-15T00:00:00Z"
 slides:
 summary:
 tags:
+- fertilizers-microbes
 title: Long-term nitrogen enrichment mediates the effects of nitrogen supply and co-inoculation on a viral pathogen
 url_code: https://doi.org/10.6073/pasta/5620600a9d7d7bec7855ba1999a37ded
 url_dataset: ""
-url_pdf: https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.8450
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""

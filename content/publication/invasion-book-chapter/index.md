@@ -17,7 +17,8 @@ image:
   caption:
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- invasion-disease
 publication: '*Plant Invasions - The Role of Biotic Interactions*'
 publication_short: ""
 publication_types:
@@ -26,10 +27,11 @@ publishDate: "2020-01-01T00:00:00Z"
 slides:
 summary:
 tags:
+- invasion-disease
 title: The Role of Pathogens in Plant Invasions
 url_code: ""
 url_dataset: ""
-url_pdf: https://www.researchgate.net/publication/352803935_The_role_of_pathogens_in_plant_invasions
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""
