@@ -18,10 +18,10 @@ Florida is home to thousands of lakes, which host biodiverse ecosystems and serv
 
 **Approach**
 
-I am exploring the effects of herbicides and the invasive species they control on plant and fish communities in Florida lakes. My research questions included:
+I am exploring the effects of herbicides and the invasive species they control on plant and fish communities and water quality in Florida lakes. My research questions include:
 - How effective are herbicides at controlling aquatic invasive species?
-- What are the direct and indirect effects of herbicides on plant species richness?
-- What are the direct and indirect effects of herbicides on fish populations?
+- What are the effects of aquatic invasive species on on native plant diversity, water quality, and fish populations?
+- What are the effects of herbicides on native plant diversity, water quality, and fish populations?
 
 I am doing this research as a postdoc in the Agronomy Department at the University of Florida (UF), advised by Luke Flory and Candice Prince. We are collaborating with Mark Hoyer and James Leary (UF) as well as invasive species experts in the Florida Fish and Wildlife Conservation Commission (FWC) and the U.S. Army Corps of Engineers (USACE).
  

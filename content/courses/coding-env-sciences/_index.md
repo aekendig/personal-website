@@ -1,8 +1,8 @@
 ---
 date: "2019-07-26T00:00:00Z"
-linkTitle: Coding the Environmental Sciences Workshop
+linkTitle: Coding in the Environmental Sciences Workshop
 summary: A one-day workshop designed for K-12 students to learn about coding in the environmental sciences.
-title: "Coding the Environmental Sciences Workshop"
+title: "Coding in the Environmental Sciences Workshop"
 type: book
 ---
 
