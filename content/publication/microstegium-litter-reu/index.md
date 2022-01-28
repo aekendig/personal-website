@@ -11,8 +11,8 @@ authors:
 - Robert D. Holt
 - Erica M. Goss
 - S. Luke Flory
-date: "2022-01-16T00:00:00Z"
-doi: "10.1101/2021.04.07.437244"
+date: "2022-01-27T00:00:00Z"
+doi: "10.1002/ecs2.3907"
 featured: false
 image:
   caption:
@@ -20,11 +20,11 @@ image:
   preview_only: false
 projects:
 - invasion-disease
-publication: '*Ecosphere, in press*'
+publication: '*Ecosphere*'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: ""
+publishDate: "2022-01-27T00:00:00Z"
 slides:
 summary:
 tags:
