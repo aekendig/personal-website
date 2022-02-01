@@ -1,5 +1,5 @@
 ---
-bio: ecologist and data scientist specializing in environmental management impacts 
+bio: ecologist and data scientist specializing in human impacts in plant communities
 email: ""
 highlight_name: true
 organizations:
