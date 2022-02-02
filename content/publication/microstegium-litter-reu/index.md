@@ -20,7 +20,7 @@ image:
   preview_only: false
 projects:
 - invasion-disease
-publication: '*Ecosphere*'
+publication: '*Ecosphere, 13(1)*'
 publication_short: ""
 publication_types:
 - "2"
