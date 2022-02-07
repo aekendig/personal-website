@@ -15,7 +15,7 @@ image:
   preview_only: false
 projects:
 - invasion-disease
-publication: '*Journal of Applied Ecology, 109*(2)'
+publication: '*Journal of Ecology, 109*(2)'
 publication_short: ""
 publication_types:
 - "2"
