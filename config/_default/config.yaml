@@ -73,3 +73,16 @@ related:
       weight: 70
 security:
   _merge: deep
+frontmatter:
+  date:
+  - date
+  - publishDate
+  expiryDate:
+  - expiryDate
+  lastmod:
+  - date
+  - publishDate
+  publishDate:
+  - publishDate
+  - date
+  
