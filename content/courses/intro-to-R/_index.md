@@ -1,7 +1,7 @@
 ---
 date: "2019-10-21T00:00:00Z"
 linkTitle: Introduction to R
-summary: Javi Rudolph and I presented this tutorial to R-Ladies Gainesville in October 2019.
+summary: Javi Rudolph and I presented this tutorial to R-Ladies Gainesville.
 title: "Introduction to R"
 type: book
 ---

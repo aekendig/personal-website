@@ -1,7 +1,7 @@
 ---
 date: "2019-11-13T00:00:00Z"
 linkTitle: Using Docker and RStudio for Reproducible Research
-summary: I presented this tutorial to R-Ladies Gainesville in November 2019.
+summary: I presented this tutorial to R-Ladies Gainesville.
 title: "Using Docker and RStudio for Reproducible Research"
 type: book
 ---

@@ -42,6 +42,6 @@ We are constantly managing and altering the environment to produce food, allow f
 
 I am an ecologist and data scientist in the Institute of Food and Agricultural Sciences at the University of Florida. I use long-term monitoring data, experiments, and models in R to address questions about how management activities can alter ecological interactions in plant communities. Check out my [projects]({{< ref "project/">}}) to learn more about my approaches and collaborators!
 
-Coding and statistics have been key tools throughout my research career and I am passionate about making them more accessible others. As a teaching assistant, a volunteer for Girls Who Code, and now a co-organizer of [R-Ladies Gainesville](https://www.meetup.com/rladies-gainesville/), I have created exercises and tutorials for new and experienced coders. Check out the [tutorials page]({{< ref "courses/" >}}) for instructional materials!
+Coding and statistics have been key tools throughout my research career and I am passionate about making them more accessible others. As a teaching assistant, a volunteer for Girls Who Code, and now a co-organizer of [R-Ladies Gainesville](https://rladies-gnv.netlify.app/), I have created exercises and tutorials for new and experienced coders. Check out the [tutorials page]({{< ref "courses/" >}}) for instructional materials!
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.

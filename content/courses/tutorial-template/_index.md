@@ -1,0 +1,169 @@
+---
+date: "2022-01-28T00:00:00Z"
+linkTitle: Tutorial Template
+summary: I created an R Markdown template for members of R-Ladies Gainesville to develop R tutorials.
+title: "Tutorial Template"
+type: book
+---
+
+## Introduction
+This is a template for tutorials, which are instructive documents that guide a learner through a skill using examples.
+
+Replace this text with a description of you tutorial. Include clear learning objectives. For example:
+
+Have you ever learned a skill in R and wanted to share it with others? In this tutorial, we'll walk through how to create tutorials so that you can easily share your skills!
+
+#### Learning objectives
+- Become familiar with the tutorial template
+- Adapt the tutorial template to your needs
+- Create beautiful and clear tutorials for learneRs
+
+## Editing this template
+
+#### Accessing the template
+
+If you do not use Github, go to the [tutorials repository home page](https://github.com/R-Ladies-Gainesville/tutorials), click `Code`, and click `Download ZIP`. Open the `tutorial_template.Rmd` file in RStudio.
+
+If you use Github, [clone](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository) the [tutorials repository](https://github.com/R-Ladies-Gainesville/tutorials) and edit the `tutorial_template.Rmd` file in RStudio.
+
+#### R Markdown
+
+This template is written in an R Markdown document. This type of document is best opened and edited in RStudio. R Markdown documents allow you to include text (like this), code (see below), and output of code, like figures, in a single document. You can learn more  about R Markdown [here](https://rmarkdown.rstudio.com/lesson-1.html) (check out the Cheatsheet!).
+
+#### Metadata
+
+If you haven't already, replace the `Tutorial Title` and `Author` information in the metadata block at the top of this document with your information.
+
+#### Section titles
+
+This section is titled **Editing this template** and the sub-section is titled **Section titles**, but your tutorial won't necessarily need these sections. Consider the sections that you want in your tutorial and revise the headers throughout (the text that starts with ##) or create your own section headers.
+
+## Examples
+
+Examples are key to meeting your learning objectives. Consider your audience, learning objectives, and narrative when writing examples (see [The Carpentries Curriculum Development](https://carpentries.github.io/curriculum-development/) for tips). The learner needs to be able to reproduce examples from your tutorial on their computer. To do this, we look to advice on how to create a [minimal, reproducible example](https://stackoverflow.com/a/5963610). Examples may include:
+
+- Problem or goal
+- Dataset
+- Solution code
+- Information for reproducibility
+
+
+## Dataset
+
+Almost all examples require an input. That is what is meant by "dataset". You can create your own dataset or use one that is built into R.
+
+**Create-your-own:**
+
+Known values
+```{r}
+x <- c(1, 5, 9, 10)
+```
+
+Random values (set seed to make it reproducible)
+```{r}
+set.seed(20)
+y <- rnorm(4)
+```
+See guidance on [minimal, reproducible example](https://stackoverflow.com/a/5963610) for more examples.
+
+**Built-in:**
+
+Available datasets in R (run in RStudio to see list)
+```{r}
+data() 
+```
+
+A popular example dataset is 'iris'
+```{r}
+head(iris)
+```
+
+Another great example dataset is 'penguins'
+```{r}
+# install the package if it's not already installed
+if(!("palmerpenguins" %in% installed.packages()[,"Package"]))
+  install.packages("palmerpenguins")
+
+# load package
+library(palmerpenguins)
+
+# show data
+head(penguins)
+```
+
+
+## Solution code
+
+We will use an example from the [palmerpenguins vignette](https://allisonhorst.github.io/palmerpenguins/articles/intro.html) to demonstrate solution code. For this example, the goal is to create a scatterplot for data with different categories.
+
+**Install packages if they're not already installed** 
+
+This handy code is from [Stackoverflow](https://stackoverflow.com/a/4090208). List the packages a learner would need for your tutorial in the first line.
+```{r}
+list.of.packages <- c("palmerpenguins", "dplyr", "ggplot2")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+```
+
+**Load packages** 
+
+We use the code chunk option "message = F" to suppress messages generated when packages load.
+```{r, message = F}
+library(palmerpenguins)
+library(dplyr)
+library(ggplot2)
+```
+
+**Settings**
+
+Include figure settings, saved variables, and create-your-own datasets.
+```{r}
+theme_set(theme_minimal())
+```
+
+**Solution**
+
+Code to create scatterplot. We use the option out.width to make the figure clearer and smaller.
+```{r, out.width = "50%"}
+ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point(aes(color = species,
+                 shape = species),
+             size = 2) +
+  scale_color_manual(values = c("darkorange","darkorchid","cyan4"))
+```
+
+<img src="unnamed-chunk-9-1.png" width="50%" />
+
+If there are variations on your solution, provide more examples!
+
+
+## Information for reproducibility
+
+R and R packages are continuously updated and examples that work under a certain set of conditions may not work under another set. Ideally, you would update your tutorial when key software is updated to maintain working examples. However, that may not be feasible, and the next best option is to provide learners with all the necessary information about your computing environment. This can help them identify differences with their computing environment that may be preventing the example from running as expected. 
+
+**My computing environment:**
+
+Session information
+```{r}
+sessionInfo()
+```
+
+RStudio version
+```{r}
+# commented out for website compatibility, uncomment on your computer
+# rstudioapi::versionInfo()$version
+```
+
+
+## Sharing your tutorial
+
+### Slides
+If you're sharing your tutorial at an R-Ladies meeting, consider making slides to go along with it.
+
+See the [R-Ladies Gainesville presentations repository](https://github.com/R-Ladies-Gainesville/presentations) to download the the R Markdown file `tutorial_template.Rmd`. The tutorial_template presentation is created with the [xaringan](https://slides.yihui.org/xaringan/#1) package and the RLadies theme by [Alison Hill](https://www.apreshill.com/project/rladies-xaringan/).
+
+### Github
+
+Now it's time to add your tutorial to the R-Ladies Gainesville [tutorials repository](https://github.com/R-Ladies-Gainesville/tutorials). This will make it easier for others to provide feedback and for people to use your tutorial!
+
+If you do not use Github, email your `.Rmd` file to R-Ladies Gainesville at <gainesville@rladies.org>.
